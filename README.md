@@ -16,6 +16,7 @@ anomalies to direct specific testing of your hypothesis.
 ### STEP 5: End the program.
 
 # CODE
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -42,6 +43,7 @@ pd.crosstab(df["Pclass"],df["Survived"])
 pd.crosstab(df["Sex"],df["Survived"])
 df.corr()
 sns.heatmap(df.corr(),annot=True)
+```
 # OUPUT
 ![h1](https://user-images.githubusercontent.com/94219582/162116231-439fc740-3b1d-491d-8566-c14252f889c9.PNG)
 ![h2](https://user-images.githubusercontent.com/94219582/162116251-471692d0-140f-4811-8c1a-7474557f441f.PNG)
